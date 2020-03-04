@@ -1,0 +1,71 @@
+*:focus{
+  outline: none;
+}
+body{
+  background-color:#FFF;
+  font-family: arial;
+  text-align: center;
+}
+
+h1{
+  position: fixed;/* 要素位置の基準指定 */
+  z-index: 1000;/* 要素の重なりの順番 */
+  width: 100%;
+  top: 100%;
+  padding: 5% 0%;
+  text-align: center;
+  vertical-align: ;
+  font-size: 10vw;
+  font-family: arial;/* フォント */
+  color: #FFF;
+  -webkit-text-stroke: 0.5vw #000;/* 縁の色 */
+}
+h2{
+  z-index: 2000;
+  position: fixed;
+  width: 100%;
+  top: 200%;
+  font-size: 3vw;
+  text-align: center;
+  color: #FFF;
+  -webkit-text-stroke: 0.2vw #000;/* 縁の色 */
+}
+h3{
+  width: 20vw;
+  height:20vw;
+  left: 50vw;
+  top: 30vw;
+}
+
+ button {
+  position: fixed;
+  z-index: 1000;
+  background-repeat:no-repeat;
+  background-position : center;
+  width: 10vw;
+  height: 10vw;
+  background-color: white;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: solid .0em black;
+  border-radius: 50%;
+  font-size: 1.6em;
+  left:calc(50% - 5vw);
+  top: 200%;
+}
+
+button:hover{
+  transition: .4s;
+  background-color: #f77;
+}
+
+img#i4{
+  position: fixed;/* 要素位置の基準指定 */
+  z-index: 900;
+  width:60vw;
+  height:40vw;
+  left:20vw;
+  top:100%;
+
+}

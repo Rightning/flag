@@ -1,0 +1,48 @@
+*:focus {
+  outline: none;
+}
+
+body{
+  background-color:#77D8FF;
+  font-family: arial;
+  text-align: center;
+}
+
+h1{
+  width: 100%;
+  top: 100%;
+  padding: 0% 0%;
+  text-align: center;
+  font-size: 7vw;
+  font-family: arial;/* フォント */
+  color: #FFF;
+  -webkit-text-stroke: 0.2vw #000;/*縁の色 */
+}
+
+div {
+  font-size: 1.6vw;
+  position: relative;
+  background-color:#FFF;
+  border-radius: 1vw;
+   width: 75%;
+   left: 12.5%;
+   text-align: center;
+}
+
+button {
+  background-color: white;
+  display: inline-block;
+  padding: 0.4vw 1.2vw;
+  text-decoration: none;
+  color: #5AF;
+  border: solid .12vw #5AF;
+  border-radius: .5vw;
+  transition: .4s;
+  font-size: 1.9vw;
+}
+
+button:hover {
+  border: solid .12vw #5AF;
+  background-color: #5AF;/* マウス選択時の背景色を指定する */
+  color:  white; /* マウス選択時のフォント色を指定する */
+}

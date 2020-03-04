@@ -1,0 +1,130 @@
+input[type=radio] {
+display: none; /* ラジオボタンを非表示にする */
+}
+input[type="radio"]:checked + label {
+background-color: #555555;/* マウス選択時の背景色を指定する */
+color:  white;; /* マウス選択時のフォント色を指定する */
+}
+input[type="radio"]+ label {
+  background-color: white;
+    display: inline-block;
+    padding: 0.4vw 1.2vw;
+    text-decoration: none;
+    color: #555555;
+    border: solid .15vw #555555;
+    border-radius: 1.5vw;
+    transition: .5s;
+    font-size: 1.9vw;
+}
+
+
+input[type="button"] {
+  background-color: white;
+    display: inline-block;
+    padding: 0.4vw 1.2vw;
+    text-decoration: none;
+    color: #555555;
+    border: solid .15vw #555555;
+    border-radius: 1.5vw;
+    transition: .0s;
+    font-size: 1.9vw;
+}
+
+input#black[type="radio"]:checked + label {
+border: solid .15vw black;
+background-color: black;/* マウス選択時の背景色を指定する */
+color:  white; /* マウス選択時のフォント色を指定する */
+}
+input#black[type="radio"]+ label {
+  background-color: white;
+  color: black;
+  border: solid .15vw black;
+}
+
+input#red[type="radio"]:checked + label {
+border: solid .15vw red;
+background-color: red;/* マウス選択時の背景色を指定する */
+color:  white;/* マウス選択時のフォント色を指定する */
+}
+input#red[type="radio"] + label{
+  background-color: white;
+  color: red;
+  border: solid .15vw red;
+}
+
+input#white[type="radio"]:checked + label {
+border: solid .15vw #888;
+background-color: #D8D8D8;/* マウス選択時の背景色を指定する */
+color:  #888; /* マウス選択時のフォント色を指定する */
+}
+input#white[type="radio"] + label{
+  background-color: white;
+  color: #888;
+  border: solid .15vw #888;
+}
+
+input#orange[type="radio"]:checked + label {
+border: solid .15vw orange;
+background-color: orange;/* マウス選択時の背景色を指定する */
+color:  white; /* マウス選択時のフォント色を指定する */
+}
+input#orange[type="radio"]+ label {
+  background-color: white;
+  color: orange;
+  border: solid .15vw orange;
+}
+
+input#blue[type="radio"]:checked + label {
+border: solid .15vw blue;
+background-color: blue;/* マウス選択時の背景色を指定する */
+color:  white; /* マウス選択時のフォント色を指定する */
+}
+input#blue[type="radio"]+ label {
+  background-color: white;
+  color: blue;
+  border: solid .15vw blue;
+}
+
+input#midnightblue[type="radio"]:checked + label {
+border: solid .15vw midnightblue;
+background-color: midnightblue;/* マウス選択時の背景色を指定する */
+color:  white; /* マウス選択時のフォント色を指定する */
+}
+input#midnightblue[type="radio"]+ label {
+  background-color: white;
+  color: midnightblue;
+  border: solid .15vw midnightblue;
+}
+
+input#green[type="radio"]:checked + label {
+border: solid .15vw green;
+background-color: green;/* マウス選択時の背景色を指定する */
+color:  white; /* マウス選択時のフォント色を指定する */
+}
+input#green[type="radio"]+ label {
+  background-color: white;
+  color: green;
+  border: solid .15vw green;
+}
+
+input#darkgreen[type="radio"]:checked + label {
+border: solid .15vw darkgreen;
+background-color: darkgreen;/* マウス選択時の背景色を指定する */
+color:  white; /* マウス選択時のフォント色を指定する */
+}
+input#darkgreen[type="radio"]+ label {
+  background-color: white;
+  color: darkgreen;
+  border: solid .15vw darkgreen;
+}
+
+input#yellow[type="radio"]:checked + label {
+border: solid .15vw yellow;
+background-color: yellow;/* マウス選択時の背景色を指定する */
+color:  black; /* マウス選択時のフォント色を指定する */
+}
+input#yellow[type="radio"]+ label {
+  background-color: white;
+  color: black;
+  border: solid .15vw yellow;
+}
